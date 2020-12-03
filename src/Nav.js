@@ -1,5 +1,5 @@
 import { makeStyles} from '@material-ui/core/styles';
-import { AppBar, IconButton, ThemeProvider, Toolbar, Typography } from '@material-ui/core'
+import { AppBar, IconButton, Toolbar, Typography } from '@material-ui/core'
 import MenuIcon from '@material-ui/icons/Menu';
 import React from 'react'
 
