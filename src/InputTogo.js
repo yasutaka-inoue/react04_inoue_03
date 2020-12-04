@@ -266,4 +266,3 @@ const InputTogo = () => {
 }
 
 export default InputTogo
-
