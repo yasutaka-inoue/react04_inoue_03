@@ -93,7 +93,8 @@ const InputTogo = () => {
       setOpen(true);
     };
     const handleClose = () => {
-      setOpen(false);
+      setInputImage(null);
+      setOpen(false); 
     };
 
     // inputの処理
@@ -265,3 +266,4 @@ const InputTogo = () => {
 }
 
 export default InputTogo
+
