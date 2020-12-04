@@ -51,6 +51,7 @@ const Feed = () => {
                 {togo.map((togoItem) => (
                     // TogoItemコンポーネントにid, image, comment, place, timestampを渡す
                     <TogoItem
+                    key={togoItem.id}
                     id={togoItem.id}
                     image={togoItem.image}
                     place={togoItem.place}
@@ -66,3 +67,4 @@ const Feed = () => {
 }
 
 export default Feed
+
